@@ -14,6 +14,7 @@ function setIconInc(i) {
   var y = -56 * ((i/4) | 0 ); 
   var x = -56 * (i % 4);
   var elem = document.getElementById("icon");
+  console.log(i + " " + x + " " + y);
   elem.style.backgroundPosition = x + "px " + y + "px";
   elem.setAttribute("ind", i);  
 }
@@ -27,6 +28,7 @@ function setIconDec(i) {
   var y = -56 * ((i/4) | 0 ); 
   var x = -56 * (i % 4);
   var elem = document.getElementById("icon");
+  console.log(i + " " + x + " " + y);
   elem.style.backgroundPosition = x + "px " + y + "px";
   
   elem.setAttribute("ind", i);
