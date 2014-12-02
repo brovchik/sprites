@@ -1,0 +1,55 @@
+.icon {
+  background: url(http://10.194.0.26:8080/emojisprite.png) no-repeat;
+  height: 56px;
+  width: 56px;
+  background-position:0 0;
+}
+
+.prev, .next {
+  width: 100px;
+  background: #aaa;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+.next:after {
+  content:'';
+  display: block;
+  clear: both;
+}
+
+.prev:hover,
+.next:hover {
+  background: #555;
+}
+
+.icon {
+  background: url(http://10.194.0.26:8080/emojisprite.png) no-repeat;
+  height: 56px;
+  width: 56px;
+  background-position:0 0;
+}
+
+.prev, .next {
+  width: 100px;
+  background: #aaa;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+.next:after {
+  content:'';
+  display: block;
+  clear: both;
+}
+
+.prev:hover,
+.next:hover {
+  background: #555;
+}
