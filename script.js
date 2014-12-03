@@ -5,16 +5,17 @@ document.getElementById("next").addEventListener('click', function() {
   setIconInc(document.getElementById("icon").getAttribute("ind"));
 });
 
-document.addEventListener(keypress, 
-  function(){
-  debugger;
-    if(document.keyCode == "37") {
+document.onkeydown = arrowPressed;
+
+function arrowPressed(e){
+  e = e || event;
+  if(e.keyCode == "37") {
     setIconDec(document.getElementById("icon").getAttribute("ind"));
   }
-  if(document.keyCode == "39") {
+  if(e.keyCode == "39") {
     setIconInc(document.getElementById("icon").getAttribute("ind"));
   }
-  });
+};
 
   
 
